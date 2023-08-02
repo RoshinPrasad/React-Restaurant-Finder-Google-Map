@@ -5,7 +5,7 @@ const RestaurantFinder = () => {
   const [city, setCity] = useState('');
   const [restaurants, setRestaurants] = useState([]);
 
-  const apiKey = 'AIzaSyDZoJUYObaQQ8jI1zm3sGoJIB-2QbxeQoc';
+  const apiKey = 'Your Api Key here';
 
   const handleSearch = async () => {
     try {
